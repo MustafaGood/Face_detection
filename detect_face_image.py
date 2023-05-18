@@ -26,9 +26,3 @@ for (x, y, w, h) in faces:
 cv2.imshow('ansiktsigenkänning', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-# Lägg till koden för att läsa in 'cric.jpg' och visa den
-img = cv2.imread('Photos/cric.jpg')
-cv2.imshow('Image', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
